@@ -1,0 +1,79 @@
+* {
+    font-family: Consolas, monospace;
+}
+
+body {
+    background-image: url(Fotos/fondo.png);
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.formulario {
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 20px;
+    background: linear-gradient(45deg, rgba(59, 57, 57, 0.705), rgba(0, 0, 0, 0.5));
+    border-radius: 10px;
+}
+
+.informacion_rellenar{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+
+.option {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+select {
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+}
+
+input, .cerrarSesion {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white; 
+
+}
+
+
+.cerrarSesion:hover, .enviar:hover {
+    cursor: pointer;
+    color: #00ff00;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
