@@ -26,7 +26,7 @@ caducarSessio();
         <h1>Datos del Formulario</h1>
 
         <div class="datos_usuario">
-     <h2>Datos del Usuario</h2>
+        <h2>Datos del Usuario</h2>
         <p><strong>Correo electrónico:</strong> <?php echo $_SESSION["correo"]; ?></p>
         <p><strong>Fecha:</strong> <?php echo $_SESSION["fecha_seleccionada"]; ?></p>
         </div>   

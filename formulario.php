@@ -89,7 +89,7 @@
             <div class="select-container">
                <p>Seleccione curso:</p>
                <select name="select">
-                  <option value="Asix"<?php if (isset($_SESSION['curso']) && $_SESSION['curso'] == 'Asix') echo 'selected'?>>ASIX</option>
+                  <option valu----e="Asix"<?php if (isset($_SESSION['curso']) && $_SESSION['curso'] == 'Asix') echo 'selected'?>>ASIX</option>
                   <option value="Dam" <?php if (isset($_SESSION['curso']) && $_SESSION['curso'] == 'Dam') echo 'selected'?>>DAM</option>
                   <option value="Daw" <?php if (isset($_SESSION['curso']) && $_SESSION['curso'] == 'Daw') echo 'selected'?>>DAW</option>
                </select>
